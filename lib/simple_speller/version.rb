@@ -1,3 +1,3 @@
-module YandexSpeller
+module SimpleSpeller
   VERSION = '0.1.0'.freeze
 end

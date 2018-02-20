@@ -1,16 +1,16 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'yandex_speller/version'
+require 'simple_speller/version'
 
 Gem::Specification.new do |spec|
-  spec.name    = 'yandex_speller'
-  spec.version = YandexSpeller::VERSION
+  spec.name    = 'simple_speller'
+  spec.version = SimpleSpeller::VERSION
   spec.authors = ['Yury Karpovich']
   spec.email   = %w(spoonest@gmail.com yuri.karpovich@gmail.com)
 
   spec.summary     = %q{Wrapper around YANDEX Speller - https://tech.yandex.ru/speller/doc/dg/concepts/speller-overview-docpage/}
   spec.description = %q{Fix spelling mistakes based on YANDEX Speller API.}
-  spec.homepage    = 'https://github.com/yuri-karpovich/yandex_speller'
+  spec.homepage    = 'https://github.com/yuri-karpovich/simple_speller'
   spec.license     = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

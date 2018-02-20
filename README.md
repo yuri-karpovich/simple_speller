@@ -1,11 +1,11 @@
-# YandexSpeller
+# SimpleSpeller
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'yandex_speller'
+gem 'simple_speller'
 ```
 
 And then execute:
@@ -14,17 +14,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install yandex_speller
+    $ gem install simple_speller
 
 ## Usage
 
 ```ruby
-YandexSpeller.fix('Tom Cruize') # => "Tom Cruise"
+SimpleSpeller.fix('Tom Cruize') # => "Tom Cruise"
 
 ```
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/yuri-karpovich/yandex_speller. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yuri-karpovich/simple_speller. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

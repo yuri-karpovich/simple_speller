@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "yandex_speller"
+require "simple_speller"
 
 require "minitest/autorun"

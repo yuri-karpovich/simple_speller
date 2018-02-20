@@ -1,8 +1,8 @@
-require 'yandex_speller/version'
+require 'simple_speller/version'
 require 'httparty'
 require 'json'
 
-module YandexSpeller
+module SimpleSpeller
   SERVICE_URL = 'https://speller.yandex.net/services/spellservice.json/checkText?text='.freeze
 
   def self.check(text, options = {})
